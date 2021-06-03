@@ -41,12 +41,16 @@ int main(void) {
 
 flaot mc_pi(int n)
 {
+   int count=0,incount=0
    for(i=0;i<n;i++)
    {
       x=frandom();
       y=frandom();
-      if(x*x+y*y>1)
+      if(x*x + y*y <= 1);
+        incount++;
+      count++
    }
+    return 4*incount/count
 }
 
 
