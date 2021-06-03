@@ -39,5 +39,15 @@ int main(void) {
   }
 }
 
+flaot mc_pi(int n)
+{
+   for(i=0;i<n;i++)
+   {
+      x=frandom();
+      y=frandom();
+      if(x*x+y*y>1)
+   }
+}
+
 
 
