@@ -39,13 +39,13 @@ int main(void) {
   }
 }
 
-flaot mc_pi(int n)
+float mc_pi(int n)
 {
-   int count=0,incount=0
-   for(i=0;i<n;i++)
+   int count=0,incount=0;
+   for(int i=0;i<n;i++)
    {
-      x=frandom();
-      y=frandom();
+      int x=frandom();
+      int y=frandom();
       if(x*x + y*y <= 1);
         incount++;
       count++
