@@ -41,16 +41,18 @@ int main(void) {
 
 float mc_pi(int n)
 {
-   int count=0,incount=0;
+   int p = n;
+   int count=0;
    for(int i=0;i<n;i++)
    {
       float x=frandom();
       float y=frandom();
-      if(x*x + y*y < 1);
-        incount++;
-      count++;
+      d = x*x + y*y;
+      d1 = pow(d,0.5);
+      if(d1<1)
+        count++;
    }
-    return 4*incount/count;
+    return 4*(count/p);
 }
 
 
