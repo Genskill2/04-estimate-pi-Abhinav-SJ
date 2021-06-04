@@ -53,7 +53,8 @@ float mc_pi(int n)
         count++;
       }
    }
-    return 4*(count/p);
+   pi = 4* double(count/p);
+   return pi;
 }
 
 
