@@ -46,7 +46,7 @@ float mc_pi(int n)
    {
       int x=frandom();
       int y=frandom();
-      if(x*x + y*y <= 1);
+      if(x*x + y*y < 1);
         incount++;
       count++;
    }
